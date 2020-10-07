@@ -1,0 +1,17 @@
+<h2>Comentarios sobre “See What You Want to See: Visual User-Driven Approach for Hybrid Recommendation"</h2>
+
+En el artículo, los autores Parra, Brusilovsky y Trattner, nos presentan los resultados obtenidos en la aplicación en terreno de un sistema de recomendación SetFusion, esta herramienta tiene un enfoque en el usuario, al cual le entregan herramientas para controlar las sugerencias que reciben (control). El objetivo del sistema es recomendar papers, presentaciones y lectures en una conferencia científica, el modelo de recomendación es hibrido: utiliza el contenido de los artículos, datos de popularidad de los autores y popularidad de los artículos. 
+
+Es interesante en el diseño del modelo, que utilizan datos del usuario en la actividad misma (artículos o presentaciones agendadas) y en actividades previas en el sistema de filtrado por contenido, lo cual permite que el contenido sugerido cumpla un primer filtro de cercanía a los temas de investigación de los asistentes.
+
+Una de las características interesantes de SetFusion, es que entrega herramientas al usuario para navegar las sugerencias recibidas, aplicar ajustes a las conferencias agendadas (a las que espera ir) y ver de manera visual la relación de las sugerencias, mediante un diagrama de Venn, esta herramienta en particular facilita ver donde se posiciona cada artículo.
+
+El sistema fue probado en dos conferencias, la primera fue utilizada como primera prueba para definir un estado inicial, aplicaron ajustes a incidencias identificadas para presentar el sistema en la segunda conferencia como un lanzamiento oficial. En el artículo, presentan indicadores de engagement de los usuarios, en los cuales se aprecia una mejora interesante en la segunda conferencia. Un problema de estos indicadores de engagement, es que el sistema de validación utilizado solo permite comparar las dos instancias, pero no permite comparar los resultados frente a un escenario sin un sistema de apoyo o contra otros sistemas de apoyo similares.
+
+El sistema como herramienta se ve robusto y útil como apoyo para los asistentes, lamentablemente la falta de algunos detalles de las actividades dificulta evaluar el efecto real que tuvo sobre los usuarios, habría sido útil contar con características de la conferencia, cantidad total de asistentes, tamaño del lugar del evento o cantidad de artículos presentados, como elementos  para medir el grado de dificultad que tenían los asistentes para visitar las diversas presentaciones, para medir cuan necesaria era herramienta. En la misma línea, en el articulo se menciona la utilización de una encuesta, pero no se detallan las preguntas o los resultados detallados, para entender que motivo a los usuarios a utilizar el sistema.
+
+La falta de un baseline de comparación (conferencia sin el uso del sistema), y los datos de las conferencias para verificar si realmente son comparables, creo que reducen la capacidad de validar SetFusion, como un sistema recomendador versus un sistema informativo de la conferencia, respecto a esta segunda opción queda claro su efecto positivo, pero como sistema recomendador me cuesta encontrar un indicador que mida el valor de las recomendaciones o su impacto.   
+
+
+<hr>
+<h4>Rodrigo López A.</h4>
