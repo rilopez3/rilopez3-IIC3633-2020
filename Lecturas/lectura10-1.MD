@@ -1,0 +1,21 @@
+<h2>Deep Learning based Recommender System: A Survey and New Perspectives - Parte 1</h2>
+
+La lectura de esta semana, consiste en la primera parte de la revisión bibliográfica de Zhang, Yao, Sun y Tay. En este artículo, los autores describen y analizan los múltiples modelos de recomendaciones basados en Deep Learning. El análisis incluye una perspectiva del estado del arte, sobre un framework de análisis que ellos proponen en base al modelo de red neuronal utilizado.
+
+El trabajo realiza una buena descripción de Deep Learning como base para los sistemas de recomendación, con un foco en las ventajas. Es destacable como los modelos de Deep Learning permiten realizar un mejor manejo del proceso de identificación de features y factores latentes de los productos y usuarios. También es destacable que las redes neuronales permiten una mejor expresión de las relaciones decisionales para recomendar y permiten describir relaciones continuas.
+
+Entre los desafíos que conlleva utilizar Deep Learning como base para un sistema recomendador, los autores describen el problema del requerimiento de datos. Aunque se menciona la gran cantidad de datos que requieren los modelos de redes neuronales, concluyen que para sistemas de recomendación se puede reducir por la gran cantidad de registros que se pueden conseguir y el bajo requerimiento de etiquetado. La baja necesidad de etiquetado la soportan, sobre la idea de que a grandes rasgos solo se busca identificar que artículos recomendar y cuáles no. 
+
+Acerca de esta necesidad de datos, creo que los autores no discuten de manera detallada que, pese a que estas redes no necesitarían registros con muchas etiquetas, es un problema la gran cantidad de datos implícitos que afecta la elección del usuario, que en artículos previos hemos apreciado como resultan ser un desafío de recopilar.
+
+En esta primera parte de la lectura, se describe el primer grupo de estructuras de Deep Learning utilizadas en sistemas recomendadores: MLP, Autoencoders y CNN. En estas estructuras es importante destacar el aporte que realizan para identificar de manera inteligente, los factores latentes desde una perspectiva composicional. Esta perspectiva permite una mejor expresión y mayor flexibilidad. 
+
+Este aporte de identificación de factores latentes, creo que se ve bastante afectado por el problema de datos que discutíamos previamente, debido a que a diferencias de otros problemas sobre los cuales se aplican estas técnicas de Deep Learning, la decisión de preferencia que se utiliza como input, no sigue necesariamente un proceso racional. A diferencias de un problema de Visión por computadoras o procesos de inferencias, donde la clasificación y predicción siguen un patrón lógico, en un sistema de recomendación, se utiliza como input los gustos explícitos del usuario, los cuales no siguen un orden racional o un patrón transversal en la población, por el contrario, se definen desde características psicológicas, culturales, educacionales o mentales del usuario. 
+
+En esta diferencia del origen decisional, creo que existe uno de los principales desafíos de los sistemas de recomendación, que no es posible de sortear con herramientas de Deep Learning. Sobre una misma línea de análisis, dado que la elección o preferencia no sigue reglas lógicas, aunque se suele asumir que sí, esto dificulta el proceso de aprendizaje de la red, por el hecho de que la función de perdida debe actuar sobre variables discretas. Incluso ante el supuesto de que los usuarios escogen de manera racional, la ausencia de una preferencia continua, dificulta que la red comprenda el ranking entre artículos cuando no se provee, dato que es difícil de recolectar de manera masiva.
+
+A modo de cierre de esta primera parte, tal como declaran los autores, el artículo es útil para comprender el estado del arte de los sistemas de recomendación con base en Deep Learning. Si bien describen de buena forma las herramientas, se podría realizar un análisis más detallado y crítico de los desafíos presentes, más aún cuando algunos de estos no son posibles resolver. 
+
+
+<hr>
+<h4>Rodrigo López A.</h4>
